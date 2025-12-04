@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/FoodDelivary/'
+  // Make sure this matches your GitHub repo name exactly (case-sensitive)
+  base: "/FoodDelivary/"
 })
-
